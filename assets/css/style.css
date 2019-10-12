@@ -83,7 +83,7 @@
     color: #777777;
     padding: 20px 20px 20px 20px;
     text-align: left;
-    height: 420px;
+    height: 850px;
     border: rgb(233, 233, 233) solid 1px;
   }
  
@@ -115,7 +115,7 @@
 
   #profilepic {
     text-align: left;
-    margin: 0px 10px 10px 0px;
+    margin: 10px 10px 10px 0px;
     float: left;
   }  
 
@@ -129,9 +129,31 @@
   }
 
 
-
-
   /* Portfolio page contents*/
+  #portfolio{
+    height:850px;
+}
+
+  .pic{
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#profilepic{
+ position: relative;
+}
+
+.text{
+  position: absolute;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 260px;
+  margin-top:130px;
+  padding:10px;
+}
+
+  /* Contact page contents*/
 
   #bodylayoutp {
     background-color:#ffffff;
@@ -142,7 +164,7 @@
   #contact {
     color: #777777;
     padding: 0px 20px 0px 20px;
-    height: 450px;
+    height: 850px;
     border: rgb(233, 233, 233) solid 1px;
   }
 
